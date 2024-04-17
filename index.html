@@ -1,38 +1,205 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html>
-<head>
-  <title>My first styled page</title>
-<link rel="stylesheet" href="mystyle.css"
-  <style type="text/css">
+<!DOCTYPE html>
+<html lang="en">
 
-   </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>溜梯外</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <!-- 菜单栏 and 小溜的独家标志 -->
+    <div class="header">
+        <div class="container cl">
+            <div class="left fl">
+                <a href="index.html" class="logo fl"><img src="images/logo.png" alt=""></a>
 
-<!-- Site navigation menu -->
-<ul>
-  <li><a href="index.html">Home page</a>
-  <li><a href="musings.html">Musings</a>
-  <li><a href="town.html">My town</a>
-  <li><a href="links.html">Links</a>
-</ul>
+                <!-- 导航栏 -->
+                <ul class="menu fl">
+                    <li><a href="index.html" class="active">首页</a></li>
+                    <li><a href="1.html">海报作品</a></li>
+                    <li><a href="2.html">其他</a></li>
 
-<!-- Main content -->
-<h1>My first styled page</h1>
+                </ul>
+            </div>
 
-<p>Welcome to my styled page!
+        </div>
+    </div>
 
-<p>It lacks images, but at least it has style.
-And it has links, even if they don't go
-anywhere&hellip;
 
-<p>There should be more here, but I don't know
-what yet.
 
-<!-- Sign and date the page, it's only polite! -->
-<address>Made 5 April 2004<br>
-  by myself.</address>
+
+
+    <!-- 系列海报 -->
+    <div class="news commPadding">
+        <div class="container">
+            <h1 class="commTitle">文创与排版设计</h1>
+
+            <div class="-news">
+                <div class="swiper newSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img"><img src="images/zheye.jpg" alt=""></div>
+                            <div class="txt">
+                                <div class="tip">折页设计</div>
+                                <div class="tit"></div>
+                                <div class="time">2023-07</div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img"><img src="images/upan.jpg" alt=""></div>
+                            <div class="txt">
+                                <div class="tip">文创设计</div>
+                                <div class="tit"></div>
+                                <div class="time">2023-11</div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img"><img src="images/paiban1.jpg" alt=""></div>
+                            <div class="txt">
+                                <div class="tip">招新推送排版</div>
+                                <div class="tit"></div>
+                                <div class="time">2023-08</div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img"><img src="images/paiban2.jpg" alt=""></div>
+                            <div class="txt">
+                                <div class="tip">摆摊宣传排版</div>
+                                <div class="tit"></div>
+                                <div class="time">2023-11</div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img"><img src="images/paiban3.jpg" alt=""></div>
+                            <div class="txt">
+                                <div class="tip">部门日常推送排版</div>
+                                <div class="tit"></div>
+                                <div class="time">2022-09</div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="swiper-pagination swiper-pagination-news"></div>
+
+                <div class="swiper-button-next swiper-button-next-news"></div>
+                <div class="swiper-button-prev swiper-button-prev-news"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 蓝底部分的海报 -->
+    <div class="video commPadding">
+        <div class="container">
+            <div class="commTitle">海报作品</div>
+            <ul class="cl">
+                <li>
+                    <a href="#">
+                        <div class="img"><img src="images/video1.jpg" alt=""></div>
+                        <h3>交融</h3>
+                        <p>以文化交融和极繁主义为主题所创造的海报</p>
+                        <i>maximalism</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img"><img src="images/video2.jpg" alt=""></div>
+                        <h3>海洋保护</h3>
+                        <p>以海洋保护为主题的公益海报设计</p>
+                        <i>stop marine pollution</i>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- 自制ae动画展示 dont panic-->
+    <div class="footer">
+        <div class="foot-logo">
+            <img src="images/ae.png" alt="">
+        </div>
+        <div class="foot-menu">
+
+        </div>
+
+        <li class="z">
+          <video class="pian" style="width:428px;height:300px;" controls autoplay>
+            <source src="images/dont panic.mp4"/>
+          </video>
+        </li>
+        <li>
+
+            <p>创作主题——don’t panic
+在如今的快节奏生活影响下，大家都或多或少会被焦虑情绪影响。
+所以我想尝试用mg动画风格的短片展现一些治愈性的画面，从而缓解大家的焦虑情绪，哪怕只是利用这短暂的两分钟让大家暂时逃离压力和焦虑，
+因此创作了以don’t panic为主题的一个纯ae制作主要依靠图形转场的解压治愈系动画</p>
+
+<div class="footer">
+    <div class="foot-logo">
+        <img src="images/logo.png" alt="">
+    </div>
+        </div>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>
+        // 大图轮播图
+        var bannerSwiper = new Swiper(".bannerSwiper", {
+            // navigation: {
+            //     nextEl: ".swiper-button-next",
+            //     prevEl: ".swiper-button-prev",
+            // },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            loop: true,
+        });
+
+        //文创和折页
+        var newSwiper = new Swiper('.newSwiper', {
+            slidesPerView: 4,
+            spaceBetween: 20,
+            speed: 1000,
+            navigation: {
+                nextEl: '.swiper-button-next-news',
+                prevEl: '.swiper-button-prev-news',
+            },
+            pagination: {
+                el: '.swiper-pagination-news',
+                clickable: true,
+            },
+            //   breakpoints: {
+            //     640: {
+            //       slidesPerView: 1,
+            //       spaceBetween: 20,
+            //     },
+            //     768: {
+            //       slidesPerView: 2,
+            //       spaceBetween: 20,
+            //     },
+            //     1024: {
+            //       slidesPerView: 3,
+            //       spaceBetween: 20,
+            //     },
+            // 	1380: {
+            //       slidesPerView: 4,
+            //       spaceBetween: 20,
+            //     },
+            //   }
+        });
+    </script>
 
 </body>
+
 </html>
